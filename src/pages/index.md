@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Din personliga skräddare
 image: /img/bild1.jpg
-heading: Jag hjälper dig med det där lilla extra!
-subheading: Allt i en lugn och trygg miljö
+heading: Hur kan jag hjälpa dig?
+subheading: Jag hjälper dig med exklusiva, skräddarsydda produkter
 mainpitch:
   title: Why Kaldi
   description: >
