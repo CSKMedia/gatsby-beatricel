@@ -1,8 +1,9 @@
 @import "~bulma/sass/utilities/initial-variables"
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,400;1,400&display=swap')
 
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
+$kaldi-red: #bf9b30
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
@@ -44,7 +45,7 @@ $black: #2b2523
 
 .full-width-image
     width: 100vw
-    height: 400px
+    height: 600px
     background-size: cover
     background-position: bottom
     display: flex
@@ -121,6 +122,23 @@ $menu-label-color: $white-ter
 .blog-list-item .featured-thumbnail
   flex-basis: 35%;
   margin: 0 1.5em 0 0;
+
+.center-text
+  position: absolute
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -50%)
+  padding: 0
+
+
+.img-hover-zoom img
+  transition: all 0.5s ease !important
+
+.img-hover-zoom:hover img
+  transform: scale(1.05)
+
+.myfont
+  font-family: 'Source Serif Pro', serif;
 
 
 @import "~bulma"
