@@ -11,6 +11,9 @@ $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 
+.logo
+  transition: 0.4s
+
 .navbar .navbar-menu
   box-shadow:none !important
 
@@ -45,32 +48,105 @@ $black: #2b2523
 
 .full-width-image
     width: 100vw
-    height: 600px
+    height: 100vh
+    margin-top: -75px !important
     background-size: cover
-    background-position: bottom
+    background-position: top
     display: flex
     justify-content: center
     align-items: center
+    border-bottom: 5px solid $primary
 
 .btn
     display: inline-block
-    padding: 12px 16px 10px
+    padding: 1.3rem 2.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     font-size: 18px
     font-size: 1rem
     line-height: 1.25
-    background-color: #fff
-    border-radius: .25rem
+    background-color: transparent
+    border-radius: 2rem
     text-decoration: none
     font-weight: 700
-    color: #CC3700
+    color: #fff
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    border:
+    webkit-box-shadow: 0 0 0 2px #fff inset;
+    box-shadow: 0 0 0 2px #fff inset;
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
+.btn:hover
+    background-color: $primary
+    color: #fff !important
+    webkit-box-shadow: 0 0 0 2px $primary inset;
+    box-shadow: 0 0 0 2px $primary inset;
+
+.btn-filled
+    display: inline-block
+    padding: 1.3rem 2.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: 18px
+    font-size: 1rem
+    line-height: 1.25
+    background-color: $primary
+    border-radius: 2rem
+    text-decoration: none
+    font-weight: 700
+    color: #fff
+    text-align: center
+    border:
+    webkit-box-shadow: 0 0 0 2px #fff inset;
+    box-shadow: 0 0 0 2px #fff inset;
+    -webkit-transition: all .15s ease
+    transition: all .15s ease
+
+
+.btn-outlined
+    display: inline-block
+    padding: 1.3rem 2.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: 18px
+    font-size: 1rem
+    line-height: 1.25
+    background-color: transparent
+    border-radius: 2rem
+    text-decoration: none
+    font-weight: 700
+    color: $primary
+    text-align: center
+    border:
+    webkit-box-shadow: 0 0 0 2px $primary inset;
+    box-shadow: 0 0 0 2px $primary inset;
+    -webkit-transition: all .15s ease
+    transition: all .15s ease
+
+
 .margin-top-0
   margin-top: 0 !important
+
+.navbar
+  padding: 5px
+  transition: 0.4s
+
+#navbar
+  background-color: transparent
+  transition: 0.4s
+
+.navbar-item
+  font-family: 'Source Serif Pro', serif;
+  font-size: 1.2rem
+  color: #fff !important
+
+.navbar-item:hover
+  color: $primary !important
+  background-color: transparent !important
+
+.navbar-item.nav-description
+  color: $primary !important
 
 .navbar-item .icon
   color: $primary

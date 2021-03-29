@@ -35,14 +35,16 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        id="navbar"
+        className="navbar is-fixed-top"
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container">
+        <div className="container is-max-widescreen">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+              <img className="logo" src={logo} alt="Kaldi" style={{ maxHeight: '60px'}} />
+              {/* <i>Beatrice Lundquist - skräddare</i> */}
             </Link>
             {/* Hamburger menu */}
             <div
@@ -59,34 +61,21 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
+            <div className="navbar-end has-text-centered">
               <Link className="navbar-item" to="/products">
-                Products
+                Tjänster
               </Link>
               <Link className="navbar-item" to="/blog">
-                Blog
+                Bloggen
+              </Link>
+              <Link className="navbar-item" to="/about">
+                Om mig
               </Link>
               <Link className="navbar-item" to="/contact">
-                Contact
+                Kontakta mig
               </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
+              <span className="navbar-item nav-description"> | 073-531 64 33 |
                 </span>
-              </a>
             </div>
           </div>
         </div>

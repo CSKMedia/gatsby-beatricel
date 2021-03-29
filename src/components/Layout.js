@@ -47,6 +47,7 @@ const TemplateWrapper = ({ children }) => {
           property="og:image"
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
+         <script src={withPrefix('navbar-scroll.js')} type="text/javascript" />
       </Helmet>
       <Navbar />
       <div>{children}</div>
