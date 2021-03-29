@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Din personliga skräddare
-image: /img/bild2.jpg
+image: /img/bild3.jpg
 heading: Hur kan jag hjälpa dig?
 subheading: Jag hjälper dig med exklusiva, skräddarsydda produkter
 mainpitch:
