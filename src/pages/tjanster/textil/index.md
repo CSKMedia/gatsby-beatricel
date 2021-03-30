@@ -1,6 +1,8 @@
 ---
+templateKey: single-page
+path: /textil
 image: /img/ovrigt.jpg
-title: Övriga textiler
+title: Textiler
 gallery:
   images:
     - image: /img/vimpel-barnrum.jpg

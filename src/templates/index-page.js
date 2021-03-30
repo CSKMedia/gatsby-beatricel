@@ -5,6 +5,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import ServiceGrid from '../components/serviceGrid'
 // import { ary } from 'lodash'
 
 export const IndexPageTemplate = ({
@@ -94,7 +95,8 @@ export const IndexPageTemplate = ({
               </div>
             </div>
             <div className="content" style={{ paddingBottom: "3rem"}}>
-              <Features gridItems={intro.blurbs} />
+              {/* <Features gridItems={intro.blurbs} /> */}
+              <ServiceGrid />
             </div>
             {/* <div className="columns" style={{padding: '3rem 0rem'}}>
               <div className="column is-12 has-text-centered">
@@ -104,13 +106,33 @@ export const IndexPageTemplate = ({
               </div>
             </div> */}
 
-            <div className="columns" style={{backgroundColor: '#333', padding: '4rem 0rem' }}>
-              <div className="column is-12">
+
+
+<div className="columns" style={{backgroundColor: '#f7f3ea' }}>
+              <div className="column is-12" style={{padding: 0}}>
                 <div className="content">
-                  <div className="container has-text-centered">
-                    <a href="#" className="btn-outlined">
-                      kontakta mig
-                    </a>
+                  <div className="container-fluid">
+                    {/* <h3 className="has-text-weight-semibold is-size-2 has-text-centered myfont m-6">
+                      Om mig
+                    </h3> */}
+                    <div className="columns is-gapless">
+                      <div className="column is-6 has-text-centered">
+                        <img src="img/bild2.jpg" style={{objectFit: "cover"}}/>
+                      </div>
+                      <div className="column is-6">
+                        <div style={{padding: "4rem"}}>
+                        <p className="myfont">
+                        "Med Beatrice känner man sig lugn och trygg ifrån första stund. Hon är lyhörd för dina önskemål och öppen för det mesta men kommer samtidigt med de där kreativa tipsen som gör det där lilla extra. Allt var perfekt; tygvalen, måtten, snitten och sist men inte minst - servicenivån som är något utöver det vanliga. Man kände hela vägen att Beatrice ville att man skulle vara mer än nöjd, endast det bästa är gott nog för Beatrice, det märks!"
+                        </p>
+                        <span className="myfont"> - Mikaela</span>
+                        </div>
+                      </div>
+                    </div>
+                    {/* <div className="column is-12 has-text-centered">
+                      <Link className="btn-outlined" to="/blog">
+                        Läs mer om mig
+                      </Link>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -118,7 +140,9 @@ export const IndexPageTemplate = ({
 
 
 
-            <div className="columns" style={{backgroundColor: '#fff', padding: '4rem 0rem' }}>
+
+
+            <div className="columns" style={{backgroundColor: '#f7f3ea', padding: '4rem 0rem' }}>
               <div className="column is-12">
                 <div className="content">
                   <div className="container-fluid">
@@ -157,7 +181,22 @@ export const IndexPageTemplate = ({
             </div>
 
 
-            <div className="columns" style={{backgroundColor: '#fff', padding: '3rem 0rem' }}>
+
+            <div className="columns" style={{backgroundColor: '#fff', padding: '4rem 0rem' }}>
+              <div className="column is-12">
+                <div className="content">
+                  <div className="container has-text-centered">
+                    <a href="#" className="btn-outlined">
+                      kontakta mig
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div className="columns" style={{backgroundColor: '#f7f3ea', padding: '3rem 0rem' }}>
               <div className="column is-12">
                 <div className="content">
                   <div className="container">

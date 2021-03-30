@@ -16,7 +16,7 @@ export const SinglePageTemplate = ({ title, image, gallery, content, contentComp
         backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
-        backgroundPosition: `top left`,
+        backgroundPosition: `center 25%`,
         // backgroundAttachment: `fixed`,
         maxHeight: "500px",
         paddingTop: "75px",
