@@ -1,12 +1,14 @@
 ---
-templateKey: 'single-page'
+templateKey: single-page
 path: /brollop
-title: Bröllop
 image: /img/bild1.jpg
+title: Bröllop
 gallery:
   images:
-    - image: /img/barn.jpg
+    - image: /img/bild2.jpg
     - image: /img/brollop.jpg
+    - image: /img/bild1.jpg
+    - image: /img/bild3.jpg
 ---
 **Lorem Ipsum** is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.\
 \
