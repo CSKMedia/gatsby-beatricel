@@ -20,7 +20,7 @@ export const IndexPageTemplate = ({
     <div
       className="full-width-image"
       style={{
-        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(${
+        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         backgroundPosition: `top left`,
@@ -104,7 +104,7 @@ export const IndexPageTemplate = ({
               </div>
             </div> */}
 
-            <div className="columns" style={{backgroundColor: '#fff', padding: '3rem 0rem' }}>
+            <div className="columns" style={{backgroundColor: '#333', padding: '4rem 0rem' }}>
               <div className="column is-12">
                 <div className="content">
                   <div className="container has-text-centered">
@@ -118,38 +118,38 @@ export const IndexPageTemplate = ({
 
 
 
-            <div className="columns" style={{backgroundColor: '#fbf8f0', padding: '3rem 0rem' }}>
+            <div className="columns" style={{backgroundColor: '#fff', padding: '4rem 0rem' }}>
               <div className="column is-12">
                 <div className="content">
                   <div className="container-fluid">
                     <div className="container">
-                    <h3 className="has-text-weight-semibold is-size-2 has-text-centered myfont m-6">
+                    {/* <h3 className="has-text-weight-semibold is-size-2 has-text-centered myfont m-6">
                       Om mig
-                    </h3>
+                    </h3> */}
                     <div className="columns">
-                      <div className="column is-6">
-                      <p>
-                      Jag heter Beatrice Lundqvist, är 32 år gammal och bor i Orkesta/Lindholmen (Vallentuna) där jag har min ateljé.
-                      <br /> <br />
-                      Mellan HT-1999 och VT 2002 läste jag ”hantverk/skrädderi (gymnasie).
-                      Jag har praktiserat på stadsteatern (uppsättning ´Greta Garbo ´) och i Dublin. Där hjälpte jag till att sy till ´Riverdance´.
-                      <br /> <br />
-                      Jag hjälpte även till att sy kostym för en medeltida teateruppsättning och kläder till musikvideo.
-                      <br /> <br />
-                      VT2003 – VT2004 flyttade jag till Borås för att gå utbildningen ´Klänning/Skrädderi´.
-                      <br /> <br />
-                      Jag har de senaste åren från och till jobbat på stadsteatern och nu operan för olika uppsättningar.
-                      </p>
-                      </div>
                       <div className="column is-6 has-text-centered">
                         <img src="img/beatrice.jpg" style={{objectFit: "cover", border: "7px solid #bf9b30"}}/>
                       </div>
-                    </div>
-                    <div className="column is-12 has-text-centered">
+                      <div className="column is-6">
+                        <h3 className="has-text-weight-semibold is-size-2 myfont">
+                      Skräddare Beatrice Lundquist
+                    </h3>
+                    <h5 className="myfont" style={{color: "#bf9b30"}}>Exklusiva textiler </h5>
+                      <p className="pb-4">
+                      Jag hjälper dig med alla tänkbara textiljobb!
+                      Allt från barn -och festkläder till gardiner och kuddar,
+                      Oavsett hur annorlunda eller speciell din förfrågan är så antar jag utmaningen med öppet sinne.
+                      </p>
                       <Link className="btn-outlined" to="/blog">
                         Läs mer om mig
                       </Link>
+                      </div>
                     </div>
+                    {/* <div className="column is-12 has-text-centered">
+                      <Link className="btn-outlined" to="/blog">
+                        Läs mer om mig
+                      </Link>
+                    </div> */}
                   </div>
                   </div>
                 </div>
