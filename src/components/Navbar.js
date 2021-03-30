@@ -62,23 +62,31 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-end has-text-centered">
-              <Link className="navbar-item" to="/products">
-                Tjänster
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Bloggen
-              </Link>
-              <Link className="navbar-item" to="/about">
-                Om mig
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Kontakta mig
-              </Link>
-              <span className="navbar-item nav-description"> | 073-531 64 33 |
+              <div className="navbar-item has-dropdown is-hoverable">
+                <a className="navbar-link">Tjänster</a>
+                <div className="navbar-dropdown">
+                  <Link className="navbar-item" to="/tjanster/brollop">
+                    Bröllop
+                  </Link>
+                  <Link className="navbar-item" to="/tjanster/barn">
+                    Barn
+                  </Link>
+                </div>
+              </div>
+                <Link className="navbar-item" to="/blog">
+                  Bloggen
+                </Link>
+                <Link className="navbar-item" to="/about">
+                  Om mig
+                </Link>
+                <Link className="navbar-item" to="/contact">
+                  Kontakta mig
+                </Link>
+                <span className="navbar-item nav-description"> | 073-531 64 33 |
                 </span>
+              </div>
             </div>
           </div>
-        </div>
       </nav>
     )
   }
