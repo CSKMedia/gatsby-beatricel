@@ -6,7 +6,6 @@ title: Bröllop
 gallery:
   images:
     - image: /img/bild2.jpg
-    - image: /img/brollop.jpg
     - image: /img/bild1.jpg
     - image: /img/bild3.jpg
 ---
