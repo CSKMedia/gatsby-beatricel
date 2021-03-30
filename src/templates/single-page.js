@@ -3,8 +3,9 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import Gallery from '../components/Gallery'
 
-export const SinglePageTemplate = ({ title, image, content, contentComponent }) => {
+export const SinglePageTemplate = ({ title, image, gallery, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -39,10 +40,11 @@ export const SinglePageTemplate = ({ title, image, content, contentComponent }) 
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+              <h2 className="title is-size-3 has-text-weight-bold is-bold-light myfont">
                 {title}
               </h2>
               <PageContent className="content" content={content} />
+              <Gallery galleryItems={gallery.images} />
             </div>
           </div>
         </div>
@@ -67,6 +69,7 @@ const SinglePage = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         image={post.frontmatter.image}
+        gallery={post.frontmatter.gallery}
         content={post.html}
       />
     </Layout>
@@ -89,6 +92,17 @@ export const singlePageQuery = graphql`
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
               ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        gallery {
+          images {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 600, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
             }
           }
         }

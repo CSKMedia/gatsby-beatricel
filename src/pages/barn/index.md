@@ -1,4 +1,6 @@
 ---
+templateKey: single-page
+path: /barn
 image: /img/josue-michel-xcu7ncmnfi8-unsplash.jpg
 title: Barnkläder
 gallery:
