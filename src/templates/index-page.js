@@ -108,23 +108,29 @@ export const IndexPageTemplate = ({
 
 
 <div className="columns" style={{backgroundColor: '#f7f3ea' }}>
-              <div className="column is-12" style={{padding: 0}}>
+              <div className="column is-12" style={{padding: 0 }}>
                 <div className="content">
                   <div className="container-fluid">
                     {/* <h3 className="has-text-weight-semibold is-size-2 has-text-centered myfont m-6">
                       Om mig
                     </h3> */}
                     <div className="columns is-gapless">
-                      <div className="column is-6 has-text-centered">
-                        <img src="img/bild2.jpg" style={{objectFit: "cover"}}/>
+                      <div className="column is-6 has-text-centered" style={{lineHeight: "0px"}}>
+                        <img src="img/mikaela-fix.jpg" style={{objectFit: "cover"}}/>
                       </div>
-                      <div className="column is-6">
-                        <div style={{padding: "4rem"}}>
-                        <p className="myfont">
-                        "Med Beatrice känner man sig lugn och trygg ifrån första stund. Hon är lyhörd för dina önskemål och öppen för det mesta men kommer samtidigt med de där kreativa tipsen som gör det där lilla extra. Allt var perfekt; tygvalen, måtten, snitten och sist men inte minst - servicenivån som är något utöver det vanliga. Man kände hela vägen att Beatrice ville att man skulle vara mer än nöjd, endast det bästa är gott nog för Beatrice, det märks!"
-                        </p>
-                        <span className="myfont"> - Mikaela</span>
-                        </div>
+                      <div className="column is-6" style={{ minHeight: "100%", display:"flex", alignItems: "center"}}>
+                        <div className="myfont" style={{padding: "0em 2em"}}>
+                          <p className="is-italic quote-paragraph">
+                          <span style={{fontSize: "1.45em"}}>" </span>
+                          Med Beatrice känner man sig lugn och trygg ifrån första stund.
+                            Hon är lyhörd för dina önskemål och öppen för det mesta men kommer samtidigt med de där kreativa tipsen som gör det där lilla extra.
+                            <br />
+                            <br />
+                            Allt var perfekt; tygvalen, måtten, snitten och sist men inte minst - servicenivån som är något utöver det vanliga. Man kände hela vägen att Beatrice ville att man skulle vara mer än nöjd, endast det bästa är gott nog för Beatrice, det märks!
+                            <span style={{fontSize: "1.45em"}}> "</span>
+                          </p>
+                          <span style={{display:"block", padding: "0px 2rem", fontSize: "1.45em"}}> - Mikaela</span>
+                          </div>
                       </div>
                     </div>
                     {/* <div className="column is-12 has-text-centered">
@@ -137,18 +143,30 @@ export const IndexPageTemplate = ({
               </div>
             </div>
 
+            
+            <div className="columns" style={{backgroundColor: '#fff', padding: '4rem 0rem' }}>
+              <div className="column is-12">
+                <div className="content">
+                  <div className="container has-text-centered">
+                  <h3 className="has-text-weight-semibold is-size-2 myfont">
+                    Funderar du över något?
+                    </h3>
+                    <a href="#" className="btn-outlined">
+                      kontakta mig
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
 
 
 
-            <div className="columns" style={{backgroundColor: '#f7f3ea', padding: '4rem 0rem' }}>
+            {/* <div className="columns" style={{backgroundColor: '#f7f3ea', padding: '4rem 0rem' }}>
               <div className="column is-12">
                 <div className="content">
                   <div className="container-fluid">
                     <div className="container">
-                    {/* <h3 className="has-text-weight-semibold is-size-2 has-text-centered myfont m-6">
-                      Om mig
-                    </h3> */}
                     <div className="columns">
                       <div className="column is-6 has-text-centered">
                         <img src="img/beatrice.jpg" style={{objectFit: "cover", border: "7px solid #bf9b30"}}/>
@@ -168,31 +186,11 @@ export const IndexPageTemplate = ({
                       </Link>
                       </div>
                     </div>
-                    {/* <div className="column is-12 has-text-centered">
-                      <Link className="btn-outlined" to="/blog">
-                        Läs mer om mig
-                      </Link>
-                    </div> */}
                   </div>
                   </div>
                 </div>
               </div>
-            </div>
-
-
-
-            <div className="columns" style={{backgroundColor: '#fff', padding: '4rem 0rem' }}>
-              <div className="column is-12">
-                <div className="content">
-                  <div className="container has-text-centered">
-                    <a href="#" className="btn-outlined">
-                      kontakta mig
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
+            </div> */}
 
 
             <div className="columns" style={{backgroundColor: '#f7f3ea', padding: '3rem 0rem' }}>
@@ -200,7 +198,7 @@ export const IndexPageTemplate = ({
                 <div className="content">
                   <div className="container">
                     <h3 className="has-text-weight-semibold is-size-2 has-text-centered myfont m-6">
-                      Från bloggen
+                      Senaste från bloggen
                     </h3>
                     <BlogRoll />
                     <div className="column is-12 has-text-centered">

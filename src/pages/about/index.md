@@ -2,8 +2,8 @@
 templateKey: about-page
 path: /about
 title: Om mig
+image: /img/beatrice.jpg
 ---
-![Beatrice Lundquist](/img/beatrice.jpg "Beatrice Lundquist")
 
 ### Beatrice - Diplomerad skräddare
 
