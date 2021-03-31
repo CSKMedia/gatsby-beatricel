@@ -3,9 +3,8 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
-import ServiceGrid from '../components/serviceGrid'
+import ServiceGrid from '../components/ServiceGrid'
 // import { ary } from 'lodash'
 
 export const IndexPageTemplate = ({
