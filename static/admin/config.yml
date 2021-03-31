@@ -51,7 +51,7 @@ collections:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Innehåll", name: "body", widget: "markdown"}
           - {label: Bild på Bea, name: image, widget: image}
-      - file: "src/pages/brollop/index.md"
+      - file: "src/pages/tjanster/brollop/index.md"
         label: "Bröllop"
         name: "wedding"
         fields:
@@ -60,7 +60,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: Galleri, name: gallery, widget: object, fields: [ {label: Bilder, name: images, widget: list, fields: [{label: Bild, name: image, widget: image}]}]}
-      - file: "src/pages/barn/index.md"
+      - file: "src/pages/tjanster/barn/index.md"
         label: "Barn"
         name: "kids"
         fields:
@@ -69,7 +69,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: Galleri, name: gallery, widget: object, fields: [ {label: Bilder, name: images, widget: list, fields: [{label: Bild, name: image, widget: image}]}]}
-      - file: "src/pages/ovrigt/index.md"
+      - file: "src/pages/tjanster/textil/index.md"
         label: "Textil"
         name: "other"
         fields:
