@@ -7,6 +7,16 @@ gallery:
   images:
     - image: /img/vimpel-barnrum.jpg
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+### Askpåsar
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Askpåsar används för gravsättning av aska då anhöriga väljer att inte ha en traditionell urna.\
+En askpåse i standardutförande är i naturfärgat lin med svart band.\
+\
+Mått: 40 x 40cm\
+Pris: från 395kr/st inkl.moms. Frakt tillkommer \
+\
+Askpåsar kan även sys upp efter andra önskemål.\
+Pris: Enligt offert. \
+\
+Askpåsar sys regelbundet upp till Vallentuna Församling. De har även beställt bårtäcken mm. \
+Pris: Enligt offert
