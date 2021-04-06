@@ -1,8 +1,8 @@
 ---
 templateKey: single-page
-path: /textil
+path: /textil-ovrigt
 image: /img/ovrigt.jpg
-title: Textiler
+title: Textil & Övrigt
 gallery:
   images:
     - image: /img/vimpel-barnrum.jpg

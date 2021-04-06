@@ -18,12 +18,12 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div
-      className="full-width-image"
+      className="full-width-image bgPos"
       style={{
         backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
-        backgroundPosition: `top left`,
+        // backgroundPosition: `top left`,
         // backgroundAttachment: `fixed`,
       }}
     >
@@ -46,6 +46,7 @@ export const IndexPageTemplate = ({
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+            textAlign:'center',
           }}
         >
           {title}
@@ -59,12 +60,13 @@ export const IndexPageTemplate = ({
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+            textAlign:'center',
           }}
         >
           {subheading}
         </h3>
-        <div style={{display: "flex", marginTop: "2rem"}}>
-          <a href="#" className="btn">Kontakta mig</a>
+        <div style={{display: "flex", marginTop: "2rem", justifyContent: "center"}}>
+          <a href="/kontakt" className="btn" style={{ textAlign: "center"}}>Kontakta mig</a>
         </div>
       </div>
     </div>

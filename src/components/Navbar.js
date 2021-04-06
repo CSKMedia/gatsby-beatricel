@@ -63,26 +63,26 @@ const Navbar = class extends React.Component {
           >
             <div className="navbar-end has-text-centered">
               <div className="navbar-item has-dropdown is-hoverable">
-                <a className="navbar-link">Tjänster</a>
+                <a className="navbar-link is-hidden-touch">Tjänster</a>
                 <div className="navbar-dropdown">
-                  <Link className="navbar-item" to="/tjanster/brollop">
+                  <Link className="navbar-item" to="/tjanster/brollop-fest">
                     Bröllop & Festklänningar
                   </Link>
                   <Link className="navbar-item" to="/tjanster/barn">
                     Barn
                   </Link>
-                  <Link className="navbar-item" to="/tjanster/textil">
-                    Textil
+                  <Link className="navbar-item" to="/tjanster/textil-ovrigt">
+                    Textil & Övrigt
                   </Link>
                 </div>
               </div>
-                <Link className="navbar-item" to="/blog">
+                <Link className="navbar-item" to="/blogg">
                   Bloggen
                 </Link>
-                <Link className="navbar-item" to="/about">
+                <Link className="navbar-item" to="/om-mig">
                   Om mig
                 </Link>
-                <Link className="navbar-item" to="/contact">
+                <Link className="navbar-item" to="/kontakt">
                   Kontakta mig
                 </Link>
                 <span className="navbar-item nav-description"> | 0736-63 10 82 |

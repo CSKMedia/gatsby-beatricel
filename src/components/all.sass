@@ -14,7 +14,8 @@ $black: #2b2523
 a
   color: #bf9b30 !important
 
-
+.bgPos
+  backgroundPosition: top left
 
 .logo
   transition: 0.4s
@@ -111,7 +112,7 @@ a
     webkit-box-shadow: 0 0 0 2px $primary inset;
     box-shadow: 0 0 0 2px $primary inset;
 
-.btn-filled
+.btn-filled, .button
     display: inline-block
     padding: 1.3rem 2.5rem;
     padding-left: 5rem;
@@ -159,6 +160,9 @@ a
 .navbar
   padding: 5px
   transition: 0.4s
+
+.navbar-burger
+  color: #e4c25a !important
 
 #navbar
   background-color: transparent
@@ -275,11 +279,15 @@ $navbar-dropdown-item-hover-color: $white-ter
 
 @import "~bulma"
 
+.button
+  color: $primary !important
 
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%;
+  .bgPos
+    backgroundPosition: center center
 
 +mobile
   .blog-list-item header
@@ -288,3 +296,19 @@ $navbar-dropdown-item-hover-color: $white-ter
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+  .bgPos
+    backgroundPosition: center center
+
+  #navMenu
+    background-color: $body-color
+
+  #navbar
+    background-color: $body-color !important
+
+  .navbar-dropdown
+    border: none !important
+  .navbar-dropdown:after
+    display: none
+
+  .logo
+    max-height: 40px !important

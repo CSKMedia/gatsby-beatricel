@@ -15,7 +15,7 @@ export const AboutPageTemplate = ({ title, image, content, contentComponent }) =
       <div
       className="full-width-image"
       style={{
-        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/img/beaBG.jpg)`,
+        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/img/silk.jpg)`,
         backgroundPosition: `center 10%`,
         // backgroundAttachment: `fixed`,
         maxHeight: "500px",

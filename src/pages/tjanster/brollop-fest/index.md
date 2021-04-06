@@ -1,6 +1,6 @@
 ---
 templateKey: single-page
-path: /brollop
+path: /brollop-fest
 image: /img/bild1.jpg
 title: Bröllop och Festklänningar
 gallery:

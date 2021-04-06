@@ -39,7 +39,7 @@ export default class Index extends React.Component {
       <div
       className="full-width-image"
       style={{
-        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/img/beaBG.jpg)`,
+        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/img/silk.jpg)`,
         backgroundPosition: `center 10%`,
         // backgroundAttachment: `fixed`,
         maxHeight: "500px",
@@ -128,7 +128,7 @@ export default class Index extends React.Component {
                       </div>
                     </div>
                     <div className="field">
-                      <button className="button is-link" type="submit">
+                      <button className="button" type="submit">
                         Skicka
                       </button>
                     </div>
@@ -136,6 +136,11 @@ export default class Index extends React.Component {
                   </div>
                   <div className="column is-half is-flex is-justify-content-center is-align-items-center myfont">
                     <div style={{ fontSize: "1.2rem"}}>
+                      Beatrice Lundqvist
+                      <br />
+                      Vallentuna
+                      <br />
+                      <br />
                       <a href="mailto:info@beatricel.se">info@beatricel.se</a>
                       <br />
                       0736-63 10 82
