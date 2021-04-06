@@ -131,7 +131,7 @@ export const IndexPageTemplate = ({
                             Allt var perfekt; tygvalen, måtten, snitten och sist men inte minst - servicenivån som är något utöver det vanliga. Man kände hela vägen att Beatrice ville att man skulle vara mer än nöjd, endast det bästa är gott nog för Beatrice, det märks!
                             <span style={{fontSize: "1.45em"}}> "</span>
                           </p>
-                          <span style={{display:"block", padding: "0px 2rem", fontSize: "1.45em"}}> - Mikaela</span>
+                          <span style={{display:"block", padding: "1.5rem 2rem", fontSize: "1.45em"}}> - Mikaela</span>
                           </div>
                       </div>
                     </div>
@@ -144,8 +144,6 @@ export const IndexPageTemplate = ({
                 </div>
               </div>
             </div>
-
-            
             <div className="columns" style={{backgroundColor: '#fff', padding: '4rem 0rem' }}>
               <div className="column is-12">
                 <div className="content">
