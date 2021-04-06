@@ -10,7 +10,7 @@ const ServiceGrid = ({ data }) => {
   return (
   <div className="container is-fluid">
     <div className="columns is-multiline">
-      {data && data.allMarkdownRemark.edges.map((item, index) => (
+      {data && data.allMarkdownRemark.edges.sort().map((item, index) => (
         <div key={index} className="column is-4">
           <div className="container">
             <div className="has-text-centered">

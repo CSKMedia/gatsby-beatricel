@@ -3,9 +3,34 @@ import Layout from '../components/Layout'
 
 const NotFoundPage = () => (
   <Layout>
-    <div>
-      <h1>NOT FOUND</h1>
-      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <div
+      className="full-width-image"
+      style={{
+        // backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/img/silk.jpg)`,
+        // backgroundPosition: `center 10%`,
+        // backgroundAttachment: `fixed`,
+        backgroundColor: "#333",
+        maxHeight: "500px",
+        paddingTop: "75px",
+      }}
+    >
+    <h1
+      className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen myfont"
+      style={{
+        // boxShadow:
+        //   'rgb(191, 155, 48) 0.5rem 0px 0px, rgb(191, 155, 48) -0.5rem 0px 0px',
+        // backgroundColor: 'rgb(191, 155, 48)',
+        color: 'white',
+        lineHeight: '1',
+        padding: '0.25em',
+      }}
+    >
+      Sidan kan inte visas!
+    </h1>
+    </div>
+    <div className="container">
+      <h1>Sidan finns inte</h1>
+      <p>Tyvärr finns inte sidan du försöker besöka. Se över URL:en</p>
     </div>
   </Layout>
 )
