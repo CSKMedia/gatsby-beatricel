@@ -10,7 +10,7 @@ const NotFoundPage = () => (
         // backgroundPosition: `center 10%`,
         // backgroundAttachment: `fixed`,
         backgroundColor: "#333",
-        maxHeight: "500px",
+        maxHeight: "800px",
         paddingTop: "75px",
       }}
     >
@@ -28,10 +28,10 @@ const NotFoundPage = () => (
       Sidan kan inte visas!
     </h1>
     </div>
-    <div className="container">
+    {/* <div className="container">
       <h1>Sidan finns inte</h1>
       <p>Tyvärr finns inte sidan du försöker besöka. Se över URL:en</p>
-    </div>
+    </div> */}
   </Layout>
 )
 
