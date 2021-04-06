@@ -2,15 +2,20 @@
 templateKey: single-page
 path: /brollop
 image: /img/bild1.jpg
-title: Bröllop
+title: Bröllop och Festklänningar
 gallery:
   images:
     - image: /img/bild2.jpg
     - image: /img/bild1.jpg
     - image: /img/bild3.jpg
 ---
-**Lorem Ipsum** is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.\
+**BRÖLLOP**
+
+För både vinter och sommarbrud.\
+Olika skärningar, detaljer och materialval.\
 \
-*It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged*.\
+Jag tar fram den modellen du vill ha. Från mönsterkonstruktion till färdig klänning.\
+Du kan även **hyra bröllopsklänning.**\
 \
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+**FEST & AFTONKLÄNNINGAR**\
+Jag hjälper dig ta fram en klänning för varje tillfälle! Tveka inte att [kontakta mig ](/kontak)för vidare konsultation
