@@ -66,7 +66,7 @@ const Navbar = class extends React.Component {
                 <a className="navbar-link">Tjänster</a>
                 <div className="navbar-dropdown">
                   <Link className="navbar-item" to="/tjanster/brollop">
-                    Bröllop
+                    Bröllop & Festklänningar
                   </Link>
                   <Link className="navbar-item" to="/tjanster/barn">
                     Barn
@@ -85,7 +85,7 @@ const Navbar = class extends React.Component {
                 <Link className="navbar-item" to="/contact">
                   Kontakta mig
                 </Link>
-                <span className="navbar-item nav-description"> | 073-531 64 33 |
+                <span className="navbar-item nav-description"> | 0736-63 10 82 |
                 </span>
               </div>
             </div>

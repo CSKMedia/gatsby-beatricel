@@ -63,7 +63,7 @@ export default () => (
   <StaticQuery
     query={graphql`
     {
-      allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "single-page"}}}) {
+      allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "single-page"}}}, sort: {fields: id}) {
         edges {
           node {
             id

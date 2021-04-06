@@ -11,6 +11,11 @@ $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 
+a
+  color: #bf9b30 !important
+
+
+
 .logo
   transition: 0.4s
 
@@ -92,7 +97,7 @@ $black: #2b2523
     border-radius: 2rem
     text-decoration: none
     font-weight: 700
-    color: #fff
+    color: #fff !important
     text-align: center
     border:
     webkit-box-shadow: 0 0 0 2px #fff inset;
@@ -118,7 +123,7 @@ $black: #2b2523
     border-radius: 2rem
     text-decoration: none
     font-weight: 700
-    color: #fff
+    color: #fff !important
     text-align: center
     border:
     webkit-box-shadow: 0 0 0 2px #fff inset;
@@ -139,7 +144,7 @@ $black: #2b2523
     border-radius: 2rem
     text-decoration: none
     font-weight: 700
-    color: $primary
+    color: $primary !important
     text-align: center
     border:
     webkit-box-shadow: 0 0 0 2px $primary inset;
@@ -174,7 +179,7 @@ $black: #2b2523
 .navbar-link
   color: #fff !important
 
-.navbar-link:hover
+.navbar-link:hover, a.navbar-item:focus-within
   background-color: transparent !important
 
 .navbar-item.has-dropdown:hover .navbar-link
@@ -196,7 +201,7 @@ footer.footer
 
 //Menu overrides
 $menu-item-color: $white-ter
-$menu-item-hover-color: $black !important
+$menu-item-hover-color: #e4c25a !important
 $menu-item-hover-background-color: $black
 $menu-item-active-color: $kaldi-red-invert
 $menu-item-active-background-color:	$kaldi-red-invert
@@ -215,6 +220,10 @@ $navbar-dropdown-item-hover-color: $white-ter
 .menu-list
   list-style: none !important
   text-align: left
+
+.menu-list a:hover
+  color: #e4c25a !important
+
 .social
   padding: 2em
 .social a

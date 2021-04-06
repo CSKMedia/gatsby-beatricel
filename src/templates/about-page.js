@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import BlogRoll from '../components/BlogRoll'
+import ContactSection from '../components/ContactSection'
 
 export const AboutPageTemplate = ({ title, image, content, contentComponent }) => {
   const PageContent = contentComponent || Content
@@ -54,6 +55,7 @@ export const AboutPageTemplate = ({ title, image, content, contentComponent }) =
           </div>
         </div>
       </div>
+      <ContactSection bgColor="#f7f3ea"/>
     </>
   )
 }
