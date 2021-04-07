@@ -202,7 +202,7 @@ export const IndexPageTemplate = ({
                     </h3>
                     <BlogRoll />
                     <div className="column is-12 has-text-centered">
-                      <Link className="btn-filled" to="/blog">
+                      <Link className="btn-filled" to="/blogg">
                         Läs mer från bloggen
                       </Link>
                     </div>
