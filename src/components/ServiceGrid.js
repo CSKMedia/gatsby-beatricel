@@ -34,7 +34,7 @@ const ServiceGrid = ({ data }) => {
                     height: 300,
                     width: "100%",
                     maskImage: "linear-gradient(to bottom, rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.85) 100%)",
-                    webkitMaskImage: "linear-gradient(to bottom, rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.85) 100%)"
+                    WebkitMaskImage: "linear-gradient(to bottom, rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.85) 100%)"
                 }}/>
                 <div className="center-text myfont">
                   <h2 style={{color: '#fff', padding: 0, margin:0 }}>{item.node.frontmatter.title}</h2>
