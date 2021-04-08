@@ -2,11 +2,11 @@
 templateKey: single-page
 path: /askpasar
 position: 3
-image: /img/askpase1.jpg
+image: /img/askpasebg.jpg
 title: Askpåsar
 gallery:
   images:
-    - image: /img/askpase.png
+    - image: /img/askpase1.jpg
     - image: /img/askpase.jpg
 ---
 ### Askpåsar
