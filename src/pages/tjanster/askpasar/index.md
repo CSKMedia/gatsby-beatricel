@@ -1,14 +1,13 @@
 ---
 templateKey: single-page
 path: /askpasar
+position: 3
 image: /img/askpase1.jpg
 title: Askpåsar
-position: 3
 gallery:
   images:
-    - image: /img/vimpel-barnrum.jpg
-    - image: /img/12235014_10153989973719415_8304781249879596412_n.jpg
     - image: /img/askpase.png
+    - image: /img/askpase.jpg
 ---
 ### Askpåsar
 
