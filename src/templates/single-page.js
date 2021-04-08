@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import Gallery from '../components/Gallery'
+import ContactSection from '../components/ContactSection'
 
 export const SinglePageTemplate = ({ title, image, gallery, content, contentComponent }) => {
   const PageContent = contentComponent || Content
@@ -49,6 +50,7 @@ export const SinglePageTemplate = ({ title, image, gallery, content, contentComp
           </div>
         </div>
       </div>
+      <ContactSection bgColor="#f7f3ea"/>
     </>
   )
 }
