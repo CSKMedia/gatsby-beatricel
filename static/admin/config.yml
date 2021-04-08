@@ -19,27 +19,27 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Publicerings Datum", name: "date", widget: "datetime"}
+      - {label: "Beskrivning", name: "description", widget: "text"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Innehåll", name: "body", widget: "markdown"}
 
   - name: "pages"
-    label: "Pages"
+    label: "Sidor"
     files:
       - file: "src/pages/index.md"
-        label: "Landing Page"
+        label: "Startsidan"
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Subheading, name: subheading, widget: string}
+          - {label: Titel, name: title, widget: string}
+          - {label: Bakgrundsbild, name: image, widget: image}
+          - {label: Huvudrubrik, name: heading, widget: string}
+          - {label: Underrubrik, name: subheading, widget: string}
           - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
-          - {label: Description, name: description, widget: string}
+          - {label: "Beskrivning", name: description, widget: string}
           - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
           - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
       - file: "src/pages/om-mig/index.md"
@@ -58,7 +58,7 @@ collections:
           - {label: "Position", name: "position", widget: "number",  default: 1}
           - {label: Bakgrundsbild, name: image, widget: image}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Innehåll", name: "body", widget: "markdown"}
           - {label: Galleri, name: gallery, widget: object, fields: [ {label: Bilder, name: images, widget: list, fields: [{label: Bild, name: image, widget: image}]}]}
       - file: "src/pages/tjanster/barn/index.md"
         label: "Barn"
@@ -67,8 +67,8 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "single-page"}
           - {label: "Position", name: "position", widget: "number",  default: 2}
           - {label: Bakgrundsbild, name: image, widget: image}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Innehåll", name: "body", widget: "markdown"}
           - {label: Galleri, name: gallery, widget: object, fields: [ {label: Bilder, name: images, widget: list, fields: [{label: Bild, name: image, widget: image}]}]}
       - file: "src/pages/tjanster/ovriga-uppdrag/index.md"
         label: "Övriga uppdrag"
@@ -77,8 +77,8 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "single-page"}
           - {label: "Position", name: "position", widget: "number",  default: 3}
           - {label: Bakgrundsbild, name: image, widget: image}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Innehåll", name: "body", widget: "markdown"}
           - {label: Galleri, name: gallery, widget: object, fields: [ {label: Bilder, name: images, widget: list, fields: [{label: Bild, name: image, widget: image}]}]}
       - file: "src/pages/tjanster/askpasar/index.md"
         label: "Askpåsar"
@@ -87,8 +87,8 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "single-page"}
           - {label: "Position", name: "position", widget: "number",  default: 4}
           - {label: Bakgrundsbild, name: image, widget: image}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Innehåll", name: "body", widget: "markdown"}
           - {label: Galleri, name: gallery, widget: object, fields: [ {label: Bilder, name: images, widget: list, fields: [{label: Bild, name: image, widget: image}]}]}
       # - file: "src/pages/products/index.md"
       #   label: "Products Page"

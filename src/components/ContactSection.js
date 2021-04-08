@@ -10,7 +10,7 @@ const ContactSection = ({bgColor}) => {
           <h3 className="has-text-weight-semibold is-size-2 myfont">
             Funderar du över något?
             </h3>
-            <a href="#" className="btn-outlined">
+            <a href="/kontakt" className="btn-outlined">
               kontakta mig
             </a>
           </div>
