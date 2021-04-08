@@ -12,6 +12,7 @@ gallery:
     - image: /img/167708278_906414013502724_8903127242615964123_n.jpg
     - image: /img/mikaela-3.jpg
     - image: /img/Mikaela-fix.jpg
+    - image: /img/169961657_4225814757449974_6774451715542819708_n.jpg
 ---
 För både vinter och sommarbrud.\
 Olika skärningar, detaljer och materialval.\
