@@ -11,7 +11,7 @@ const ServiceGrid = ({ data }) => {
   <div className="container is-fluid">
     <div className="columns is-multiline">
       {data && data.allMarkdownRemark.edges.sort().map((item, index) => (
-        <div key={index} className="column is-4">
+        <div key={index} className="column is-3">
           <div className="container">
             <div className="has-text-centered">
               <a href={item.node.fields.slug}>

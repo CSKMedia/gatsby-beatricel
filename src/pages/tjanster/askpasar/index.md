@@ -1,8 +1,8 @@
 ---
 templateKey: single-page
-path: /textil-ovrigt
-image: /img/ovrigt.jpg
-title: Textil & Övrigt
+path: /askpasar
+image: /img/askpase1.jpg
+title: Askpåsar
 gallery:
   images:
     - image: /img/vimpel-barnrum.jpg

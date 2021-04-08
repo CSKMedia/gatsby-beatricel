@@ -68,9 +68,18 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: Galleri, name: gallery, widget: object, fields: [ {label: Bilder, name: images, widget: list, fields: [{label: Bild, name: image, widget: image}]}]}
-      - file: "src/pages/tjanster/textil-ovrigt/index.md"
-        label: "Textil"
+      - file: "src/pages/tjanster/ovriga-uppdrag/index.md"
+        label: "Övriga uppdrag"
         name: "other"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "single-page"}
+          - {label: Bakgrundsbild, name: image, widget: image}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: Galleri, name: gallery, widget: object, fields: [ {label: Bilder, name: images, widget: list, fields: [{label: Bild, name: image, widget: image}]}]}
+      - file: "src/pages/tjanster/askpasar/index.md"
+        label: "Askpåsar"
+        name: "askpasar"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "single-page"}
           - {label: Bakgrundsbild, name: image, widget: image}
