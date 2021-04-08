@@ -40,7 +40,7 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container is-max-widescreen">
+        <div className="container is-max-widescreen" style={{ padding: "5px 0px" }}>
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
               <img className="logo" src={logo} alt="Kaldi" style={{ maxHeight: '60px'}} />

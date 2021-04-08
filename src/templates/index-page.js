@@ -70,7 +70,7 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </div>
-    <section className="section section--gradient" style={{ padding: '3rem 0rem'}}>
+    <section className="section section--gradient" style={{ padding: '3rem 0rem 0rem 0rem'}}>
         <div className="columns">
           <div className="column is-12">
             {/* <div className="content" style={{backgroundColor: '#f7f7f7' }}>

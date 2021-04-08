@@ -19,7 +19,7 @@ const Footer = class extends React.Component {
           />
         </div>
         <div className="content has-text-centered has-text-white-ter" style={{ backgroundColor: "#333"}}>
-          <div className="container has-text-white-ter">
+          <div className="container has-text-white-ter" style={{ paddingBottom: "3rem" }}>
             <div style={{ maxWidth: '100vw' }} className="columns">
               <div className="column is-4">
                 <section className="menu">
@@ -61,8 +61,13 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/tjanster/textil-ovrigt">
-                        Textil & Övrigt
+                      <Link className="navbar-item" to="/tjanster/askpasar">
+                        Askpåsar
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/tjanster/ovriga-uppdrag">
+                        Övrigta uppdrag
                       </Link>
                     </li>
                   </ul>
