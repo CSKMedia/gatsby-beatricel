@@ -11,7 +11,7 @@ const Gallery = ({ galleryItems }) => {
     </h2>
     <div className="columns is-multiline">
       {galleryItems && galleryItems.map((image, index) => (
-        <div key={index} className="column is-4" style={{minHeight: 300, overflow: "hidden"}}>
+        <div key={index} className="column is-4">
           <PreviewCompatibleImage style={{ objectFit: "cover", height:200}} imageInfo={image} />
         </div>
       ))}
