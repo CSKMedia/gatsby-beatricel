@@ -9,7 +9,5 @@ tags: test
 ---
 Här kan ni hitta allt från vilka typer av tjänster som tillhandahålls till kontaktuppgifter, bildgallerier och inspirerande blogginlägg.
 
-![cskmedia](/img/cskmedia.png)
-
 \
 Hemsidan är skapad av [cskmedia.se](www.cskmedia.se)
