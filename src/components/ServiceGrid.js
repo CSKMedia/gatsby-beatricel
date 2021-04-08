@@ -5,12 +5,12 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const ServiceGrid = ({ data }) => {
 
-  console.log("data", data)
+  const sortedData = data.allMarkdownRemark.edges.sort((a, b) => a.node.frontmatter.position - b.node.frontmatter.position)
 
   return (
   <div className="container is-fluid">
     <div className="columns is-multiline">
-      {data && data.allMarkdownRemark.edges.sort().map((item, index) => (
+      {data && sortedData.map((item, index) => (
         <div key={index} className="column is-3">
           <div className="container">
             <div className="has-text-centered">
@@ -72,6 +72,7 @@ export default () => (
             }
             frontmatter {
               title
+              position
               path
               image {
                 childImageSharp {

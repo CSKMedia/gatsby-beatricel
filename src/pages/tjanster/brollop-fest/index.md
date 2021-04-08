@@ -3,6 +3,7 @@ templateKey: single-page
 path: /brollop-fest
 image: /img/bild1.jpg
 title: Bröllop och Festklänningar
+position: 1
 gallery:
   images:
     - image: /img/bild2.jpg

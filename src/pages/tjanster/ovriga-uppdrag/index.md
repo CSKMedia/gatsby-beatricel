@@ -3,6 +3,7 @@ templateKey: single-page
 path: /ovriga-uppdrag
 image: /img/ovrigt.jpg
 title: Övriga uppdrag
+position: 4
 gallery:
   images:
     - image: /img/vimpel-barnrum.jpg

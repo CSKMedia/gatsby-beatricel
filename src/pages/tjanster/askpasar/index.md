@@ -3,6 +3,7 @@ templateKey: single-page
 path: /askpasar
 image: /img/askpase1.jpg
 title: Askpåsar
+position: 3
 gallery:
   images:
     - image: /img/vimpel-barnrum.jpg
