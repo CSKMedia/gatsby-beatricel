@@ -4,10 +4,9 @@ path: /about
 title: Om mig
 image: /img/beatrice.jpg
 ---
-
 ### Beatrice - Diplomerad skräddare
 
-Jag heter Beatrice Lundqvist, är 32 år gammal och bor i Orkesta/Lindholmen (Vallentuna) där jag har min ateljé.\
+Jag heter Beatrice Lundqvist, är 38 år gammal och bor i Orkesta/Lindholmen (Vallentuna) där jag har min ateljé.\
 \
 Mellan HT-1999 och VT 2002 läste jag ”hantverk/skrädderi (gymnasie).\
 Jag har praktiserat på stadsteatern (uppsättning ´Greta Garbo ´) och i Dublin. Där hjälpte jag till att sy till ´Riverdance´.\
