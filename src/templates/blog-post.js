@@ -6,11 +6,13 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import ContactSection from '../components/ContactSection'
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const BlogPostTemplate = ({
   content,
   contentComponent,
   description,
+  image,
   title,
   helmet,
 }) => {
@@ -43,19 +45,29 @@ export const BlogPostTemplate = ({
       {title}
     </h1>
     </div>
-    <section className="section" style={{ padding: '3rem 0rem'}}>
+    <section className="section" style={{ padding: '3rem 0rem 0rem 0rem'}}>
       <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
+        <div className="columns" style={{ paddingBottom: "3rem"}}>
+          <div className="column is-10 is-offset-1 pb-4">
+            <div style={{ paddingBottom: 15 }}>
+            {image ? (
+                      <PreviewCompatibleImage
+                        imageInfo={{
+                          image,
+                          // alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                        }}
+                      />
+                  ) : null}
+            </div>
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <p>{description}</p>
+            {/* <p>{description}</p> */}
             <PostContent content={content} />
           </div>
         </div>
       </div>
-      <ContactSection />
+      <ContactSection bgColor="#f7f3ea"/>
       </section>
     </>
   )
@@ -77,6 +89,7 @@ const BlogPost = ({ data }) => {
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
+        image={post.frontmatter.featuredimage}
         description={post.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Blog">
@@ -110,6 +123,13 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
+        featuredimage {
+          childImageSharp {
+            fluid(maxWidth: 1200, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
