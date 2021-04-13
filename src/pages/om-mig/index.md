@@ -16,3 +16,7 @@ Jag hjälpte även till att sy kostym för en medeltida teateruppsättning och k
 VT2003 – VT2004 flyttade jag till Borås för att gå utbildningen ´Klänning/Skrädderi´.\
 \
 Jag har de senaste åren från och till jobbat på stadsteatern och nu operan för olika uppsättningar.
+
+Just nu jobbar jag med mitt eget skrädderi, tar emot nybeställningar, ändringar mm.
+
+Välkommen!
